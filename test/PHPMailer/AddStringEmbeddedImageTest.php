@@ -44,6 +44,7 @@ final class AddStringEmbeddedImageTest extends PreSendTestCase
             5 => true,
             6 => 'inline',
             7 => $cid,
+            8 => 'Content-ID',
         ];
 
         $this->Mail->Body = 'This is the <strong>HTML</strong> part of the email.';
