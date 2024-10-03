@@ -42,6 +42,7 @@ final class AddEmbeddedImageTest extends PreSendTestCase
             5 => false,
             6 => 'inline',
             7 => 'my-attach',
+            8 => 'Content-ID',
         ];
 
         $this->Mail->Body = 'Embedded Image: <img alt="phpmailer" src="' .

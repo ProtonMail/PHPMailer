@@ -45,6 +45,7 @@ final class AddStringAttachmentTest extends PreSendTestCase
             5 => true,
             6 => 'attachment',
             7 => 0,
+            8 => '',
         ];
 
         $this->Mail->Body = 'Here is the text body';
